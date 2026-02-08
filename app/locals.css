@@ -1,0 +1,110 @@
+.hero {
+    white-space: normal;
+    display: flex;
+    flex-wrap: wrap;
+    /* background-image: url('/background.JPG');
+    background-repeat: no-repeat;
+    background-size: cover; */
+    filter: blur();
+    padding: 20px;
+}
+
+.herotitle {
+    margin-top: 200px;
+}
+
+#who-i-am {
+    max-width: 40vw;
+    min-width: 300px;
+    width: 100%;
+    background-image: url('/background.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    border-radius: 20px;
+}
+
+#who-i-am p {
+    line-height: 1.6;
+}
+
+#recent-posts h2 {
+    margin: 0;
+}
+
+#recent-posts {
+    max-width: 55vw;
+    min-width: 300px;
+    width: 100%;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.who-i-am-wrapper {
+    max-width: 30vw;
+    margin: 0 auto;
+}
+
+.posts-container {
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.post-card {
+    background-color: #FAF9F6;
+    border-radius: 12px;
+    width: 400px;
+    margin: 20px;
+    transition: all 0.3s ease;
+}
+.post-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: scale(1.03);
+    transition: all 0.3s ease;
+}
+
+.post-card img {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.post-card h3, .post-card p {
+    width: 85%;
+    margin: 5px auto;
+    font-size: 1.1rem;
+}
+
+.post-date {
+    color: #888;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 1070px) {
+    .herotitle {
+        margin-top: 100px;
+    }
+}
+
+@media (max-width: 880px) {
+    #who-i-am {
+        max-width: 100%;
+    }
+    .who-i-am-wrapper {
+        max-width: 80%;
+    }
+    #recent-posts {
+        max-width: 100%;
+    }
+    #recent-posts h2 {
+        margin-top: 20px;
+    }
+    .herotitle {
+        margin-top: 200px;
+    }
+}

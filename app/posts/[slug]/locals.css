@@ -1,0 +1,51 @@
+.post-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    margin-top: 40px;
+}
+
+.post-page h1 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 20px;
+}
+
+.post-image-large {
+    display: block;
+    margin: 20px auto;
+    max-width: 90%;
+}
+
+.post-content {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    margin-top: 40px;
+}
+
+.divider {
+    width: 80%;
+    max-width: 800px;
+}
+
+.meta-info {
+    width: 80%;
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.meta-info p {
+    text-align: center;
+    color: #576574;
+    font-style: italic;
+}
+
+.meta {
+    text-align: center;
+    color: #222f3e;
+}
+
